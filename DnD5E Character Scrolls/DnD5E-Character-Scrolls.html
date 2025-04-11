@@ -270,20 +270,20 @@ Author: C. C. Hall (aka Cyanobacterium)
 								<tr>
 									<!-- start of row -->
 									<td>
-										<div class="sheet-icon sheet-icon-skill-acrobatics"> </div>
+										<div class="sheet-icon sheet-icon-skill-Shooting-accuracy"> </div>
 									</td><td>
-										<div class="sheet-section-line-item sheet-skill-name">Acrobatics (Dex)</div>
+										<div class="sheet-section-line-item sheet-skill-name">Shooting accuracy (Dex)</div>
 									</td><td>
-										<select class="sheet-numbox" name="attr_acrobatics_prof">
+										<select class="sheet-numbox" name="attr_Shooting_accuracy_prof">
 											<option value="0">0</option>
 											<option value="floor(@{prof} / 2)">½P</option>
 											<option value="@{prof}">P</option>
 											<option value="(2*@{prof})">2×P</option>
 										</select>
 									</td><td>
-										+<input class="sheet-numbox" type="number" name="attr_acrobatics" value="@{acrobatics_prof}+@{dexterity_mod}" disabled="disabled">
+										+<input class="sheet-numbox" type="number" name="attr_Shooting_accuracy" value="@{shooting_accuracy_prof}+@{dexterity_mod}" disabled="disabled">
 									</td><td>
-										<button class="sheet-roll-button" type="roll" value="/roll [Acrobatics check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{acrobatics}" name="roll_acrobatics"></button>
+										<button class="sheet-roll-button" type="roll" value="/roll [Shooting accuracy check] ?{d20 Roll|Normal,1d20 |With Advantage,2d20dl1 |With Disadvantage,2d20dh1} + @{Shooting_accuracy}" name="roll_Shooting_accuracy"></button>
 									</td>
 									<!-- end of row -->
 								</tr>
